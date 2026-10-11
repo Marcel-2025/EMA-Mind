@@ -1,4 +1,4 @@
-const PLAY_STORE_URL = "#"; // TODO: später durch die echte Google-Play-URL ersetzen
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=dev.flondy.emamind"; // TODO: später durch die echte Google-Play-URL ersetzen
 
 document.querySelectorAll('[data-play-link]').forEach(link => {
   link.href = PLAY_STORE_URL;
